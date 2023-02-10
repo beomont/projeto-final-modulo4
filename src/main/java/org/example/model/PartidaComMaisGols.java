@@ -17,7 +17,8 @@ public class PartidaComMaisGols {
     private String mandanteEstado;
     private String visitanteEstado;
 
-    public PartidaComMaisGols(Integer id, Integer rodada, LocalDate data, String mandante, String visitante, String vencedor, String arena, Integer mandantePlacar, Integer visitantePlacar, String mandanteEstado, String visitanteEstado) {
+
+    public PartidaComMaisGols(Integer id, Integer rodada, LocalDate data, String mandante, String visitante, String arena, Integer mandantePlacar, Integer visitantePlacar, String mandanteEstado, String visitanteEstado) {
         this.id = id;
         this.rodada = rodada;
         this.data = data;
