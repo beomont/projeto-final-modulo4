@@ -1,4 +1,4 @@
-package org.example.controll;
+package org.example.controller;
 
 import org.example.model.PartidaComMaisGols;
 

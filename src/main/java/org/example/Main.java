@@ -1,6 +1,5 @@
 package org.example;
 
-import org.example.controll.PartidaGols;
 import org.example.view.MaiorPlacarGols;
 
 import java.io.IOException;

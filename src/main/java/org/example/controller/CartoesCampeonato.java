@@ -1,6 +1,6 @@
-package controller;
+package org.example.controller;
 
-import model.Cartao;
+import org.example.model.Cartao;
 
 import java.io.IOException;
 import java.nio.file.Files;
