@@ -17,7 +17,7 @@ public class CartoesCampeonato {
     private static final String VAZIO = "";
     private static final String SEPARADOR_COLUNAS = ",";
 
-    public static void main(String[] args) {
+    public static void mostrarJogadoresComMaisCartoes() {
 
         try {
             List<Cartao> cartoes = Files.lines(Paths.get(ARQUIVO_CARTOES))
