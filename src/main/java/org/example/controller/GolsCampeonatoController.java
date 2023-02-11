@@ -2,6 +2,8 @@ package org.example.controller;
 
 import org.example.model.Gol;
 
+import java.io.BufferedReader;
+import java.io.FileReader;
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
@@ -65,5 +67,28 @@ public class GolsCampeonatoController {
                 .max(Comparator.comparing(Map.Entry::getValue)).get();
         return atletaComMaxGol;
     }
+
+    public Map<String, Long> jogadorQueMaisFezGolsPenaltis(List<Gol> gols) {
+        Map<String, Long> golsPenaltis = gols.stream()
+                .filter(gol -> "Penalty".equals(gol.getTipoGol()))
+                .collect(Collectors.groupingBy(Gol::getAtleta, Collectors.counting()));
+
+        return golsPenaltis.entrySet().stream()
+                .sorted(Map.Entry.comparingByValue(Comparator.reverseOrder()))
+                .limit(1)
+                .collect(Collectors.toMap(Map.Entry::getKey, Map.Entry::getValue));
+    }
+
+    public Map<String, Long> jogadorQueMaisFezGolsContra(List<Gol> gols) {
+        Map<String, Long> golsContra = gols.stream()
+                .filter(gol -> "Gol Contra".equals(gol.getTipoGol()))
+                .collect(Collectors.groupingBy(Gol::getAtleta, Collectors.counting()));
+
+        return golsContra.entrySet().stream()
+                .sorted(Map.Entry.comparingByValue(Comparator.reverseOrder()))
+                .limit(1)
+                .collect(Collectors.toMap(Map.Entry::getKey, Map.Entry::getValue));
+    }
+
 
 }

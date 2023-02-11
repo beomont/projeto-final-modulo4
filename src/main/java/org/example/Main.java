@@ -12,6 +12,9 @@ public class Main {
         maiorPlacarGols.imprimirDados();
         CartoesCampeonato.mostrarJogadoresComMaisCartoes();
         GolsCampeonatoView.imprimeAtletaComMaiorGol();
+        //GolsCampeonatoView.imprimeGolsContraPenalti();
+
+
 
     }
 

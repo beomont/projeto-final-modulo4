@@ -25,6 +25,10 @@ public class Gol {
         this.minutoPartida = minutoPartida;
     }
 
+    public Gol() {
+
+    }
+
     public Integer getIdPartida() {
         return idPartida;
     }
