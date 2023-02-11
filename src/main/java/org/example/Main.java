@@ -1,6 +1,7 @@
 package org.example;
 
 import org.example.controller.CartoesCampeonato;
+import org.example.view.GolsCampeonatoView;
 import org.example.view.MaiorPlacarGols;
 
 import java.io.IOException;
@@ -10,6 +11,8 @@ public class Main {
         MaiorPlacarGols maiorPlacarGols = new MaiorPlacarGols();
         maiorPlacarGols.imprimirDados();
         CartoesCampeonato.mostrarJogadoresComMaisCartoes();
+        GolsCampeonatoView.imprimeAtletaComMaiorGol();
+
     }
 
 }
