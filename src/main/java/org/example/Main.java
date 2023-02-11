@@ -11,8 +11,8 @@ public class Main {
         MaiorPlacarGols maiorPlacarGols = new MaiorPlacarGols();
         maiorPlacarGols.imprimirDados();
         CartoesCampeonato.mostrarJogadoresComMaisCartoes();
-        GolsCampeonatoView.imprimeAtletaComMaiorGol();
-        //GolsCampeonatoView.imprimeGolsContraPenalti();
+        GolsCampeonatoView.imprimeGolsAtleta();
+
 
 
 

@@ -9,7 +9,7 @@ import java.util.Map;
 
 public class GolsCampeonatoView {
 
-    public static void imprimeAtletaComMaiorGol() throws IOException {
+    public static void imprimeGolsAtleta() throws IOException {
         GolsCampeonatoController golsCampeonatoController = new GolsCampeonatoController();
         System.out.printf("O atleta %s obteve a maior pontuação, com %d Gols!\n", golsCampeonatoController.filtraAtletaComMaiorGol().getKey(), golsCampeonatoController.filtraAtletaComMaiorGol().getValue());
 
