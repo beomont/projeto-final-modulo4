@@ -19,7 +19,7 @@ public class GolsCampeonatoView {
         System.out.println("Jogador que mais fez gols contra: " + jogadorQueMaisFezGols.keySet().iterator().next() + " (" + jogadorQueMaisFezGols.values().iterator().next() + " gols)");
 
         Map<String, Long> jogadorQueMaisFezGolsPenaltis = golsCampeonatoController.jogadorQueMaisFezGolsPenaltis(gols);
-        System.out.println("Jogador que mais fez gols de pênaltis: " + jogadorQueMaisFezGolsPenaltis.keySet().iterator().next() + " (" + jogadorQueMaisFezGols.values().iterator().next() + " gols)");
+        System.out.println("Jogador que mais fez gols de pênaltis: " + jogadorQueMaisFezGolsPenaltis.keySet().iterator().next() + " (" + jogadorQueMaisFezGolsPenaltis.values().iterator().next() + " gols)");
     }
 
 
