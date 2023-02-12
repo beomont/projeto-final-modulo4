@@ -1,6 +1,7 @@
 package org.example;
 
 import org.example.controller.CartoesCampeonato;
+import org.example.controller.EstadoJogos;
 import org.example.view.GolsCampeonatoView;
 import org.example.view.MaiorPlacarGols;
 
@@ -12,6 +13,8 @@ public class Main {
         CartoesCampeonato.mostrarJogadoresComMaisCartoes();
         MaiorPlacarGols maiorPlacarGols = new MaiorPlacarGols();
         maiorPlacarGols.imprimirDados();
+        EstadoJogos EstadoJogos = null;
+        EstadoJogos.mapaEstadoPartida();
 
 
 

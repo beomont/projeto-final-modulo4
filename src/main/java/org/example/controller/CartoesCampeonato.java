@@ -48,6 +48,8 @@ public class CartoesCampeonato {
             System.err.println("Ocorreu um erro ao abrir o arquivo!");
             System.err.println(ioException.getMessage());
         }
+
+
     }
 
 
