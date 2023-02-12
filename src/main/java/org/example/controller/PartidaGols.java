@@ -21,7 +21,6 @@ public class PartidaGols {
         List<PartidaComMaisGols> partidaGols = new ArrayList<>();
 
         try (Stream<String> partidas = Files.lines(path)) {
-            //linhas.forEach(l -> System.out.println(l));
 
             List<String> linhas = partidas.map(s -> s.replaceAll("\"", "")).collect(Collectors.toList());
             linhas.remove(0);
