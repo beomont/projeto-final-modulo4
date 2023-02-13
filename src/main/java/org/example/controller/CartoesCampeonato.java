@@ -32,6 +32,7 @@ public class CartoesCampeonato {
                     .entrySet().stream()
                     .max(Comparator.comparing(Map.Entry::getValue)).get();
 
+            System.out.print("☑ ");
             System.out.printf("O jogador com mais cartões amarelos foi: %s, com um total de %d cartões.\n",
                     entryMaxCartoesAmarelos.getKey(), entryMaxCartoesAmarelos.getValue());
 
@@ -41,6 +42,7 @@ public class CartoesCampeonato {
                     .entrySet().stream()
                     .max(Comparator.comparing(Map.Entry::getValue)).get();
 
+            System.out.print("☑ ");
             System.out.printf("O jogador com mais cartões vermelhos foi: %s, com um total de %d cartões.\n",
                     entryMaxCartoesVermelhos.getKey(), entryMaxCartoesVermelhos.getValue());
 

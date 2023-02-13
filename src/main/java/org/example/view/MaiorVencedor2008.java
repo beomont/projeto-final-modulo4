@@ -21,7 +21,8 @@ public class MaiorVencedor2008 {
         Map<String, Long> timeMaisVencedorEm2008 = timeComMaisVitorias2008.PegaTimeQueMaisVenceu(2008);
         Long numeroDeVitorias = timeMaisVencedorEm2008.get(timeMaisVencedorEm2008.keySet().iterator().next());
 
-        System.out.println("os times que mais venceram jogos em 2008 (Time | Vitórias):");
+        System.out.print("☑ ");
+        System.out.println("Os times que mais venceram jogos em 2008 (Time | Vitórias):");
         for (Map.Entry<String, Long> entry : timeMaisVencedorEm2008.entrySet()) {
             if (numeroDeVitorias.equals(entry.getValue())) {
                 System.out.println("\t" + entry.getKey() + " | " + entry.getValue());

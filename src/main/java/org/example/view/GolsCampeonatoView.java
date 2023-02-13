@@ -11,16 +11,22 @@ public class GolsCampeonatoView {
 
     public static void imprimeGolsAtleta() throws IOException {
         GolsCampeonatoController golsCampeonatoController = new GolsCampeonatoController();
+        System.out.print("☑ ");
         System.out.printf("O atleta %s obteve a maior pontuação, com %d Gols!\n", golsCampeonatoController.filtraAtletaComMaiorGol().getKey(), golsCampeonatoController.filtraAtletaComMaiorGol().getValue());
 
 
         List<Gol> gols = golsCampeonatoController.populaListaGols();
 
         Map<String, Long> jogadorQueMaisFezGolsPenaltis = golsCampeonatoController.jogadorQueMaisFezGolsPenaltis(gols);
-        System.out.println("Jogador que mais fez gols de pênaltis: " + jogadorQueMaisFezGolsPenaltis.keySet().iterator().next() + " (" + jogadorQueMaisFezGolsPenaltis.values().iterator().next() + " gols)");
+        System.out.print("☑ ");
+        System.out.print("Jogador que mais fez gols de pênaltis: ");
+        jogadorQueMaisFezGolsPenaltis.forEach((jogador, qtdGols) -> System.out.println(jogador + " (" + qtdGols + " gols)"));
 
-        Map<String, Long> jogadorQueMaisFezGols = golsCampeonatoController.jogadorQueMaisFezGolsContra(gols);
-        System.out.println("Jogador que mais fez gols contra: " + jogadorQueMaisFezGols.keySet().iterator().next() + " (" + jogadorQueMaisFezGols.values().iterator().next() + " gols)");
+        Map<String, Long> jogadorQueMaisFezGolsContra = golsCampeonatoController.jogadorQueMaisFezGolsContra(gols);
+        System.out.print("☑ ");
+        System.out.println("Jogadores que mais fizeram gols contra: ");
+        jogadorQueMaisFezGolsContra.forEach((jogador, qtdGols) -> System.out.println("\t"+jogador + " | " + qtdGols + " gols"));
+
 
     }
 

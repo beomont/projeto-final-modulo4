@@ -13,7 +13,6 @@ public class Main {
     public static void main(String[] args) throws IOException {
 
         MaiorVencedor2008.imprimirDadosTimeQueMaisVenceu();
-
         GolsCampeonatoView.imprimeGolsAtleta();
         CartoesCampeonato.mostrarJogadoresComMaisCartoes();
         MaiorPlacarGols maiorPlacarGols = new MaiorPlacarGols();

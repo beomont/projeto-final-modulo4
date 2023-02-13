@@ -46,11 +46,12 @@ public class EstadoJogos {
                     mapaEstadosComMenJogos.put(partida.getKey(), partida.getValue());
                 }
             }
-            System.out.println("\nEstado com menos jogos: ");
+            System.out.print("☑ ");
+            System.out.println("Estado com menos jogos: ");
             for (Map.Entry<String, Integer> entry : mapaEstadosComMenJogos.entrySet()) {
                 String chave = entry.getKey();
                 Integer valor = entry.getValue();
-                System.out.println(chave + " - " + valor);
+                System.out.println("\t"+chave + " - " + valor);
             }
         }
         catch (IOException ioException) {
