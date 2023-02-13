@@ -31,7 +31,7 @@ public class MaiorPlacarGols {
         List<String> partidaComMaiorPlacar = partidaGols.PegaMaiorPlacar();
 
         System.out.print("☑ ");
-        System.out.println("O Placar da partida com mais gols foi (Time Mandante | Placar Mandante X Placar Visitante | Time Visitante):");
+        System.out.println("O Placar da partida com mais gols foi (Time Mandante | Placar Mandante X Time Visitante | Placar Visitante ):");
         for(String placar: partidaComMaiorPlacar){
             System.out.println("\t" + placar);
         }
