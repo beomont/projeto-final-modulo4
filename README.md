@@ -3,15 +3,15 @@
 
 #### GRUPO:
 
-- :man_technologist: *AGAMENON JUNIOR*
-- :woman_technologist: *AMANDA SOUZA*
-- :man_technologist: *BRUNO LOPES*
-- :woman_technologist: *RAYANNE BARROS*
-- :man_technologist: *RENAN SANTOS*
+- :man_technologist: *AGAMENON JUNIOR*  - [Github](https://github.com/Agamenon422) - [Linkedin](https://www.linkedin.com/in/ant%C3%B4nio-agamenon-%F0%9F%8F%B3%EF%B8%8F%E2%80%8D%F0%9F%8C%88-44732ba7/)
+- :woman_technologist: *AMANDA SOUZA* - [Github](https://github.com/amandasolsona) - [Linkedin](https://www.linkedin.com/in/amandasolsona/)
+- :man_technologist: *BRUNO LOPES* - [Github](https://github.com/beomont) - [Linkedin](https://www.linkedin.com/in/bruno-santana-lopes/)
+- :woman_technologist: *RAYANNE BARROS* - [Github](https://github.com/rayanne-barros/) - [Linkedin](https://www.linkedin.com/in/rayanne-barros-28b55a158/)
+- :man_technologist: *RENAN SANTOS* - [Github](https://github.com/reotsugua) - [Linkedin](https://www.linkedin.com/in/re-augusto)
 
 #### ORIENTADOR:
 
-- :man_teacher: *Prof. VINICIUS CONCEIÇÃO*
+- :man_teacher: *Prof. VINICIUS CONCEIÇÃO* - [Linkedin](https://www.linkedin.com/in/viniciusconceicaoanalist/)
 
 #### ENUNCIADO:
 Realizar a leitura de arquivos CSV com os dados de jogos do campeonato brasileiro entre 2003 e 2022 e trazer os seguintes dados:
